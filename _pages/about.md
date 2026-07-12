@@ -1,5 +1,42 @@
 ---
 layout: about
+title: About
+permalink: /
+nav: true
+nav_order: 1
+
+subtitle: Assistant Professor of Computer Science, James Madison University
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false
+  more_info: >
+    <p>Department of Computer Science</p>
+    <p>James Madison University</p>
+    <p>Harrisonburg, Virginia</p>
+
+selected_papers: false
+
+social: true
+
+announcements:
+  enabled: false
+  scrollable: true
+  limit: 5
+
+latest_posts:
+  enabled: false
+  scrollable: true
+  limit: 3
+---
+
+I am an Assistant Professor in the Department of Computer Science at James Madison University. My research is broadly focused on cybersecurity and artificial intelligence, with particular interests in secure and trustworthy machine learning, federated learning, wireless and networked systems, and security for UAV and IoT environments.
+
+My work examines how intelligent and distributed systems behave under attacks and how practical defenses can be developed for real-world and resource-constrained settings. I also work closely with undergraduate students on applied research projects involving cybersecurity, machine learning, and emerging networked systems.
+
+<!-----
+layout: about
 title: about
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
@@ -31,4 +68,4 @@ Write your biography here. Tell the world about yourself. Link to your favorite 
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.-->
