@@ -5,35 +5,59 @@ permalink: /
 nav: true
 nav_order: 1
 
-subtitle: Assistant Professor of Computer Science, James Madison University
+subtitle: Assistant Professor of Computer Science · James Madison University
 
 profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false
-  more_info: >
-    <p>Department of Computer Science</p>
-    <p>James Madison University</p>
-    <p>Harrisonburg, Virginia</p>
 
-selected_papers: false
-
+selected_papers: true
 social: true
 
 announcements:
-  enabled: false
-  scrollable: true
-  limit: 5
+  enabled: true
+  scrollable: false
+  limit: 4
 
 latest_posts:
   enabled: false
-  scrollable: true
+  scrollable: false
   limit: 3
 ---
 
-I am an Assistant Professor in the Department of Computer Science at James Madison University. My research is broadly focused on cybersecurity and artificial intelligence, with particular interests in secure and trustworthy machine learning, federated learning, wireless and networked systems, and security for UAV and IoT environments.
+I am an Assistant Professor in the Department of Computer Science at James Madison University. My research lies at the intersection of wireless communications and cybersecurity, with particular interests in federated learning, secure and trustworthy machine learning, wireless and networked systems, and security for UAV and IoT environments.
 
-My work examines how intelligent and distributed systems behave under attacks and how practical defenses can be developed for real-world and resource-constrained settings. I also work closely with undergraduate students on applied research projects involving cybersecurity, machine learning, and emerging networked systems.
+My work examines how intelligent and distributed systems behave under adversarial conditions and how practical defenses can be developed for real-world, resource-constrained settings. I also work with undergraduate students on applied research projects involving cybersecurity, machine learning, and emerging networked systems.
+
+<div class="profile-clear"></div>
+
+## Research focus
+
+<div class="research-grid">
+
+  <div class="research-card">
+    <h3>Wireless Communications</h3>
+    <p>Secure and efficient communication for next-generation wireless, cognitive radio, spectrum-sharing, and networked systems.</p>
+  </div>
+
+  <div class="research-card">
+    <h3>Secure and Trustworthy AI</h3>
+    <p>Federated learning, adversarial threats, poisoning attacks, and practical defenses for distributed machine learning.</p>
+  </div>
+
+  <div class="research-card">
+    <h3>UAV, IoT, and Cyber-Physical Systems</h3>
+    <p>Security and resilience for autonomous, resource-constrained, and highly distributed computing environments.</p>
+  </div>
+
+</div>
+
+<div class="home-actions">
+  <a class="home-action" href="{{ '/publications/' | relative_url }}">View Publications</a>
+  <a class="home-action" href="{{ '/projects/' | relative_url }}">Projects & Grants</a>
+  <a class="home-action" href="{{ '/people/' | relative_url }}">Research Group</a>
+</div>
 
 <!-----
 layout: about
