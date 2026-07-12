@@ -9,7 +9,7 @@ subtitle: Assistant Professor of Computer Science, James Madison University
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false
   more_info: >
     <p>Department of Computer Science</p>
