@@ -103,6 +103,10 @@ latest_posts:
     font-size: 0.9rem;
     margin-top: 0.7rem;
   }
+  /* Capitalize the Selected Publications heading */
+h2 a[href$="/publications/"] {
+  text-transform: capitalize;
+}
 
   @media (min-width: 700px) {
     .profile {
