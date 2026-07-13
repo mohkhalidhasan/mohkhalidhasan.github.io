@@ -1,6 +1,6 @@
 ---
 layout: page
-title: People
+title: Research Group
 permalink: /people/
 nav: true
 nav_order: 5
