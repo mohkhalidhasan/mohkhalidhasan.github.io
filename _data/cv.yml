@@ -1,0 +1,273 @@
+cv:
+  name: Moh Khalid Hasan, Ph.D.
+  headline: Assistant Professor of Computer Science
+  label: Assistant Professor of Computer Science
+  location: Harrisonburg, VA, USA
+  email: dwtn6r@jmu.edu
+  website: https://mohkhalidhasan.github.io
+  phone:
+  photo:
+
+  social_networks:
+    - network: LinkedIn
+      username: moh-khalid-hasan
+    - network: GitHub
+      username: mohkhalidhasan
+
+  address:
+    city: Harrisonburg
+    region: Virginia
+    postalCode: "22807"
+    countryCode: US
+
+  sections:
+    Experience:
+      - company: James Madison University
+        position: Assistant Professor, Department of Computer Science
+        location: Harrisonburg, VA, USA
+        start_date: "2025-08"
+        end_date: present
+        summary: Tenure-track faculty appointment in computer science.
+        highlights:
+          - Conducts research in wireless communications, cybersecurity, trustworthy machine learning, and secure networked systems.
+          - Teaches undergraduate courses and supervises undergraduate research and capstone projects.
+
+      - company: AISECLAB, Stevens Institute of Technology
+        position: Graduate Research Assistant
+        location: Hoboken, NJ, USA
+        start_date: "2021-02"
+        end_date: "2025-06"
+        summary: Research in wireless security and learning-driven communication systems.
+        highlights:
+          - Investigated physical-layer security, privacy, cognitive radio, dynamic spectrum sharing, NOMA, UAV-assisted networks, and RIS-enabled communications.
+          - Developed analytical and learning-based methods for secure and efficient wireless resource allocation.
+
+      - company: WiComAI Lab, Kookmin University
+        position: Research Associate
+        location: Seoul, South Korea
+        start_date: "2019-09"
+        end_date: "2021-01"
+        summary: Research in optical wireless communication and intelligent networked systems.
+        highlights:
+          - Worked on optical camera communication, hybrid optical/RF networking, machine-learning-assisted communication systems, and IoT applications.
+
+      - company: WiComAI Lab, Kookmin University
+        position: Graduate Research Assistant
+        location: Seoul, South Korea
+        start_date: "2017-09"
+        end_date: "2019-08"
+        summary: Graduate research in optical camera and visible-light communication.
+        highlights:
+          - Developed and evaluated communication systems for localization, healthcare, transportation, and mobile robotic applications.
+
+    Education:
+      - institution: Stevens Institute of Technology
+        degree: Ph.D.
+        area: Electrical Engineering
+        location: Hoboken, NJ, USA
+        start_date: "2021"
+        end_date: "2025"
+        highlights:
+          - "Advisor: Min Song, Ph.D.; Co-advisor: Shucheng Yu, Ph.D."
+          - "Dissertation: Toward Secure and Efficient Cognitive Radio Networks: Adaptive PHY Security and Learning-Driven Optimization"
+
+      - institution: Kookmin University
+        degree: M.S.
+        area: Electronics Engineering
+        location: Seoul, South Korea
+        start_date: "2017"
+        end_date: "2019"
+
+      - institution: Khulna University of Engineering & Technology
+        degree: B.S.
+        area: Electrical and Electronic Engineering
+        location: Khulna, Bangladesh
+        start_date: "2013"
+        end_date: "2017"
+
+    Research Areas:
+      - label: Wireless Security and Privacy
+        details: Physical-layer security, privacy enhancement, secure NOMA, cognitive radio, and dynamic spectrum sharing.
+      - label: Intelligent Wireless Networks
+        details: UAV-assisted and RIS-enabled communications, resource allocation, spectrum sharing, and emerging 6G systems.
+      - label: Trustworthy Artificial Intelligence
+        details: Federated learning, privacy-preserving learning, adversarial machine learning, and machine learning for wireless optimization.
+      - label: Optical Communications
+        details: Optical camera communication, visible-light communication, hybrid optical/RF systems, and intelligent transportation applications.
+
+    Publications:
+      - title: Channel-Adaptive Privacy Enhancement for NOMA-Based Antagonistic Overlay Cognitive Networks
+        authors:
+          - "**Moh Khalid Hasan**"
+          - Shucheng Yu
+          - Min Song
+        publisher: IEEE Transactions on Vehicular Technology
+        journal: IEEE Transactions on Vehicular Technology
+        releaseDate: "2026-02"
+        date: "2026-02"
+        doi: 10.1109/TVT.2025.3606837
+        url: https://doi.org/10.1109/TVT.2025.3606837
+        summary: "**Moh Khalid Hasan**, Shucheng Yu, and Min Song. Vol. 75, no. 2, pp. 2910–2926."
+
+      - title: U-Net-Based Optical Camera Communication in Intensity-Constrained Scenarios
+        authors:
+          - Md Osman Ali
+          - "**Moh Khalid Hasan**"
+          - Yitong Wang
+          - Mohamed Shehata
+          - Jing Fu
+          - Stanley Luong
+          - Ke Wang
+        publisher: Journal of Lightwave Technology
+        journal: Journal of Lightwave Technology
+        releaseDate: "2025-05"
+        date: "2025-05"
+        doi: 10.1109/JLT.2025.3543281
+        url: https://doi.org/10.1109/JLT.2025.3543281
+        summary: "Md Osman Ali, **Moh Khalid Hasan**, Yitong Wang, Mohamed Shehata, Jing Fu, Stanley Luong, and Ke Wang. Vol. 43, no. 10, pp. 4712–4721."
+
+      - title: Uplink Secrecy in RIS-Aided MIMO-NOMA Networks with User-Centric Artificial Noise
+        authors:
+          - "**Moh Khalid Hasan**"
+          - Shucheng Yu
+          - Min Song
+        publisher: IEEE International Conference on Communications
+        journal: IEEE International Conference on Communications
+        releaseDate: "2025"
+        date: "2025"
+        url:
+        summary: "**Moh Khalid Hasan**, Shucheng Yu, and Min Song. IEEE ICC, pp. 2617–2622."
+
+      - title: Cooperative NOMA-Based Spectrum Leasing With Multiple Secondary Users
+        authors:
+          - "**Moh Khalid Hasan**"
+          - Xiaochan Xue
+          - Shucheng Yu
+          - Min Song
+        publisher: IEEE Transactions on Vehicular Technology
+        journal: IEEE Transactions on Vehicular Technology
+        releaseDate: "2023"
+        date: "2023"
+        doi: 10.1109/TVT.2023.3287230
+        url: https://doi.org/10.1109/TVT.2023.3287230
+        summary: "**Moh Khalid Hasan**, Xiaochan Xue, Shucheng Yu, and Min Song. Vol. 72, no. 11, pp. 14543–14558."
+
+      - title: Over-the-Air Federated Learning with Enhanced Privacy
+        authors:
+          - Xiaochan Xue
+          - "**Moh Khalid Hasan**"
+          - Shucheng Yu
+          - Laxima Niure Kandel
+          - Min Song
+        publisher: IEEE International Conference on Communications
+        journal: IEEE International Conference on Communications
+        releaseDate: "2023"
+        date: "2023"
+        doi: 10.1109/ICC45041.2023.10278765
+        url: https://doi.org/10.1109/ICC45041.2023.10278765
+        summary: "Xiaochan Xue, **Moh Khalid Hasan**, Shucheng Yu, Laxima Niure Kandel, and Min Song. IEEE ICC, pp. 4546–4551."
+
+      - title: Optical Camera Communication in Vehicular Applications — A Review
+        authors:
+          - "**Moh Khalid Hasan**"
+          - Md Osman Ali
+          - Md Habibur Rahman
+          - Mostafa Zaman Chowdhury
+          - Yeong Min Jang
+        publisher: IEEE Transactions on Intelligent Transportation Systems
+        journal: IEEE Transactions on Intelligent Transportation Systems
+        releaseDate: "2022"
+        date: "2022"
+        doi: 10.1109/TITS.2021.3086409
+        url: https://doi.org/10.1109/TITS.2021.3086409
+        summary: "**Moh Khalid Hasan**, Md Osman Ali, Md Habibur Rahman, Mostafa Zaman Chowdhury, and Yeong Min Jang. Vol. 23, no. 7, pp. 6260–6281."
+
+      - title: Optical Wireless Hybrid Networks — Trends, Opportunities, Challenges, and Research Directions
+        authors:
+          - Mostafa Zaman Chowdhury
+          - "**Moh Khalid Hasan**"
+          - Md Shahjalal
+          - Md Tanvir Hossan
+          - Yeong Min Jang
+        publisher: IEEE Communications Surveys & Tutorials
+        journal: IEEE Communications Surveys & Tutorials
+        releaseDate: "2020"
+        date: "2020"
+        doi: 10.1109/COMST.2020.2966855
+        url: https://doi.org/10.1109/COMST.2020.2966855
+        summary: "Mostafa Zaman Chowdhury, **Moh Khalid Hasan**, Md Shahjalal, Md Tanvir Hossan, and Yeong Min Jang. Vol. 22, no. 2, pp. 930–966."
+
+      - title: Simultaneous Data Transmission Using Multilevel LED in Hybrid OCC/LiFi System — Concept and Demonstration
+        authors:
+          - "**Moh Khalid Hasan**"
+          - Nam Tuan Le
+          - Md Shahjalal
+          - Mostafa Zaman Chowdhury
+          - Yeong Min Jang
+        publisher: IEEE Communications Letters
+        journal: IEEE Communications Letters
+        releaseDate: "2019"
+        date: "2019"
+        url:
+        summary: "**Moh Khalid Hasan**, Nam Tuan Le, Md Shahjalal, Mostafa Zaman Chowdhury, and Yeong Min Jang. Vol. 23, no. 12, pp. 2296–2300."
+
+    Grants and Funding:
+      - bullet: "**Faculty Development Grant, James Madison University** — Principal Investigator; funded, 2025."
+      - bullet: "**4-VA Collaborative Research Grant, James Madison University** — Principal Investigator; submitted, 2026."
+      - bullet: "**CCI Cybersecurity and Critical Infrastructure Research Call, James Madison University** — Principal Investigator and Co-Principal Investigator on two submitted proposals, 2025."
+
+    Teaching Experience:
+      - bullet: "**IT 201: Computational Structures and Logic**, James Madison University — Undergraduate lecture and laboratory; Fall 2025 and Spring 2026."
+      - bullet: "**IT 212: Digital Electronics**, James Madison University — Undergraduate lecture and laboratory; Spring 2026."
+      - bullet: "**EE/CPE/AAI 595: Applied Machine Learning**, Stevens Institute of Technology — Graduate instructor; Fall 2024 and Spring 2025."
+      - bullet: "**ENGR 232 / ENGR 212: Analog Circuits Laboratories**, Stevens Institute of Technology — Graduate teaching assistant and lead laboratory instructor; January 2022–May 2024."
+      - bullet: "**Basic Electronic Circuits I Laboratory**, Kookmin University — Graduate teaching assistant; September–December 2019."
+
+    Student Mentoring and Supervision:
+      - bullet: "**Undergraduate Research Assistants, James Madison University, Spring 2026:** Matthew Engel and Korbinian Huber."
+      - bullet: "**Undergraduate Capstone Students, James Madison University, Summer 2026:** Michael V. Castellano, Noah Reed, Brian Stock, William Jedrzejczak, Dilpreet Gill, and Cole Philip Walther."
+      - bullet: "**M.S. Student Research Group, Stevens Institute of Technology, Spring 2025–Present:** Sudhanshu Kakkar, Fiza Pathan, and Azizul Haque."
+      - bullet: "**Doctoral Student Peer Mentoring Program, Stevens Institute of Technology, 2022–2025:** Official peer mentor."
+      - bullet: "**ECE Scholarship Program:** Academic mentor for master's and undergraduate students."
+
+    Professional Service:
+      - bullet: "**Journal reviewer:** IEEE Transactions on Communications; IEEE Transactions on Vehicular Technology; IEEE Journal on Selected Areas in Communications; IEEE Communications Magazine; IEEE Access; Computer Networks; Scientific Reports; and other journals."
+      - bullet: "**Technical program committee:** IEEE INFOCOM 2026 workshops EIN 2026 and ISAC-FutureG 2026."
+      - bullet: "**Conference reviewer:** IEEE SM 2026, IEEE GCAIoT 2025, ICCIT 2025, and EICT 2025."
+      - bullet: "**Conference service:** Lead Student Volunteer, IEEE INFOCOM 2023; Student Volunteer, ICUFN 2018 and KICS 2018."
+
+    Leadership:
+      - bullet: "**President, ECE Ph.D. Research Club, Stevens Institute of Technology** — March 2023–May 2025."
+      - bullet: "**President, Bangladeshi Student Association, Stevens Institute of Technology** — June 2024–May 2025."
+
+    Honors and Awards:
+      - name: Third Prize, ECE Three Minute Thesis Competition
+        title: Third Prize, ECE Three Minute Thesis Competition
+        date: "2024"
+        awarder: Stevens Institute of Technology
+        location: Stevens Institute of Technology
+        summary: Recognized for concise and effective research communication.
+
+      - name: First Prize, Ph.D. Research Expo
+        title: First Prize, Ph.D. Research Expo
+        date: "2023"
+        awarder: Stevens Institute of Technology
+        location: Stevens Institute of Technology
+        summary: Recognized for excellence in doctoral research presentation.
+
+      - name: Provost Doctoral Fellowship
+        title: Provost Doctoral Fellowship
+        date: "2021"
+        awarder: Stevens Institute of Technology
+        location: Stevens Institute of Technology
+        summary:
+
+      - name: Graduate School Academic Excellence Award
+        title: Graduate School Academic Excellence Award
+        date: "2019"
+        awarder: Kookmin University
+        location: Kookmin University
+        summary:
+
+    Professional Development:
+      - bullet: "**Teaching at the College Level Certificate Program**, Stevens Institute of Technology."
