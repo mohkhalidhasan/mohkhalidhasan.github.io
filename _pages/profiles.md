@@ -4,7 +4,6 @@ title: People
 permalink: /people/
 nav: true
 nav_order: 5
-description: Undergraduate and graduate students involved in research and capstone projects.
 ---
 
 <style>
@@ -60,9 +59,9 @@ description: Undergraduate and graduate students involved in research and capsto
   }
 </style>
 
-<div class="people-intro">
+<!-- <div class="people-intro">
 I work with undergraduate and graduate students on research in wireless communications, cybersecurity, trustworthy machine learning, UAV and IoT systems, and related networked technologies.
-</div>
+</div> -->
 
 <div class="people-section">
 
