@@ -1,0 +1,346 @@
+cv:
+  name: Moh Khalid Hasan
+  label: Assistant Professor of Computer Science
+  email: dwtn6r@jmu.edu
+  location: Harrisonburg, VA, USA
+  website: https://mohkhalidhasan.github.io
+  image: ""
+  summary: >
+    Assistant Professor of Computer Science whose research lies at the intersection
+    of wireless communications, cybersecurity, and trustworthy artificial intelligence.
+    His work focuses on physical-layer security and privacy, cognitive radio and
+    dynamic spectrum sharing, UAV- and RIS-enabled wireless networks, federated
+    learning, machine learning for wireless optimization, and optical communication
+    systems. He has authored 46 peer-reviewed journal and conference publications
+    and actively mentors undergraduate and graduate researchers.
+
+  social_networks:
+    - network: Google Scholar
+      username: 4Uv2SsRQT2gC
+    - network: LinkedIn
+      username: moh-khalid-hasan
+    - network: GitHub
+      username: mohkhalidhasan
+
+  address:
+    street: Department of Computer Science, James Madison University
+    city: Harrisonburg
+    region: Virginia
+    postalCode: "22807"
+    countryCode: US
+
+  sections:
+    Academic Appointments:
+      - company: James Madison University
+        position: Assistant Professor, Department of Computer Science
+        location: Harrisonburg, VA, USA
+        start_date: 2025-08
+        end_date: present
+
+    Education:
+      - institution: Stevens Institute of Technology
+        location: Hoboken, NJ, USA
+        area: Electrical Engineering
+        studyType: Ph.D.
+        start_date: 2021
+        end_date: 2025
+        highlights:
+          - "Advisor: Min Song, Ph.D.; Co-advisor: Shucheng Yu, Ph.D."
+          - "Dissertation: Toward Secure and Efficient Cognitive Radio Networks: Adaptive PHY Security and Learning-Driven Optimization"
+
+      - institution: Kookmin University
+        location: Seoul, South Korea
+        area: Electronics Engineering
+        studyType: M.S.
+        start_date: 2017
+        end_date: 2019
+
+      - institution: Khulna University of Engineering & Technology
+        location: Khulna, Bangladesh
+        area: Electrical and Electronic Engineering
+        studyType: B.S.
+        start_date: 2013
+        end_date: 2017
+
+    Research Interests:
+      - name: Wireless Security and Privacy
+        icon: fa-solid fa-shield-halved
+        keywords: "Physical-layer security, privacy enhancement, secure NOMA, and adversarial wireless environments"
+
+      - name: Intelligent Wireless Networks
+        icon: fa-solid fa-tower-broadcast
+        keywords: "Cognitive radio, dynamic spectrum sharing, UAV-assisted networks, RIS-enabled communications, and 6G"
+
+      - name: Trustworthy AI
+        icon: fa-solid fa-brain
+        keywords: "Federated learning, privacy-preserving learning, machine learning for wireless optimization, and secure distributed intelligence"
+
+      - name: Optical Communications
+        icon: fa-solid fa-lightbulb
+        keywords: "Optical camera communication, visible-light communication, hybrid optical/RF systems, and intelligent transportation applications"
+
+    Research Experience:
+      - company: AISECLAB, Stevens Institute of Technology
+        position: Graduate Research Assistant
+        location: Hoboken, NJ, USA
+        start_date: 2021-02
+        end_date: 2025-06
+        summary: >
+          Conducted research on wireless security, cognitive radio, spectrum sharing,
+          NOMA, UAV-assisted communications, and learning-driven wireless optimization.
+
+      - company: WiComAI Lab, Kookmin University
+        position: Research Associate
+        location: Seoul, South Korea
+        start_date: 2019-09
+        end_date: 2021-01
+        summary: >
+          Worked on optical camera communication, hybrid optical/RF networking,
+          machine-learning-assisted communication systems, and IoT applications.
+
+      - company: WiComAI Lab, Kookmin University
+        position: Graduate Research Assistant
+        location: Seoul, South Korea
+        start_date: 2017-09
+        end_date: 2019-08
+        summary: >
+          Developed and evaluated optical wireless communication systems for
+          localization, healthcare, transportation, and mobile robotic applications.
+
+    Research Impact:
+      - name: Peer-Reviewed Publications
+        icon: fa-solid fa-book-open
+        keywords: "46 publications: 26 journal articles and 20 international conference papers"
+
+      - name: Citation Profile
+        icon: fa-solid fa-chart-line
+        keywords: "Current citation counts and h-index are available through Google Scholar"
+
+      - name: Research Scope
+        icon: fa-solid fa-diagram-project
+        keywords: "Wireless security, trustworthy AI, spectrum sharing, UAV and RIS networks, federated learning, optical communications, and 6G"
+
+    Selected Publications:
+      - title: Channel-Adaptive Privacy Enhancement for NOMA-Based Antagonistic Overlay Cognitive Networks
+        authors:
+          - "**Moh Khalid Hasan**"
+          - Shucheng Yu
+          - Min Song
+        publisher: IEEE Transactions on Vehicular Technology
+        releaseDate: 2026-02
+        url: https://doi.org/10.1109/TVT.2025.3606837
+        summary: >
+          Develops channel-adaptive privacy enhancement for secure spectrum-sharing
+          networks under antagonistic conditions.
+
+      - title: U-Net-Based Optical Camera Communication in Intensity-Constrained Scenarios
+        authors:
+          - Md Osman Ali
+          - "**Moh Khalid Hasan**"
+          - Yitong Wang
+          - Mohamed Shehata
+          - Jing Fu
+          - Stanley Luong
+          - Ke Wang
+        publisher: Journal of Lightwave Technology
+        releaseDate: 2025-05
+        url: https://doi.org/10.1109/JLT.2025.3543281
+        summary: >
+          Uses a U-Net-based approach to improve optical camera communication
+          performance under intensity-constrained conditions.
+
+      - title: Cooperative NOMA-Based Spectrum Leasing With Multiple Secondary Users
+        authors:
+          - "**Moh Khalid Hasan**"
+          - Xiaochan Xue
+          - Shucheng Yu
+          - Min Song
+        publisher: IEEE Transactions on Vehicular Technology
+        releaseDate: 2023
+        url: https://doi.org/10.1109/TVT.2023.3287230
+        summary: >
+          Studies cooperative NOMA-based spectrum leasing and resource allocation
+          with multiple secondary users.
+
+      - title: Over-the-Air Federated Learning with Enhanced Privacy
+        authors:
+          - Xiaochan Xue
+          - "**Moh Khalid Hasan**"
+          - Shucheng Yu
+          - Laxima Niure Kandel
+          - Min Song
+        publisher: IEEE International Conference on Communications
+        releaseDate: 2023
+        url: https://doi.org/10.1109/ICC45041.2023.10278765
+        summary: >
+          Presents a privacy-enhanced over-the-air federated learning framework
+          for distributed wireless learning.
+
+      - title: Optical Camera Communication in Vehicular Applications — A Review
+        authors:
+          - "**Moh Khalid Hasan**"
+          - Md Osman Ali
+          - Md Habibur Rahman
+          - Mostafa Zaman Chowdhury
+          - Yeong Min Jang
+        publisher: IEEE Transactions on Intelligent Transportation Systems
+        releaseDate: 2022
+        url: https://doi.org/10.1109/TITS.2021.3086409
+        summary: >
+          Reviews optical camera communication technologies, system models,
+          applications, and challenges for intelligent transportation.
+
+      - title: Optical Wireless Hybrid Networks — Trends, Opportunities, Challenges, and Research Directions
+        authors:
+          - Mostafa Zaman Chowdhury
+          - "**Moh Khalid Hasan**"
+          - Md Shahjalal
+          - Md Tanvir Hossan
+          - Yeong Min Jang
+        publisher: IEEE Communications Surveys & Tutorials
+        releaseDate: 2020
+        url: https://doi.org/10.1109/COMST.2020.2966855
+        summary: >
+          Surveys integrated optical and radio-frequency wireless networks and
+          identifies major research opportunities for future communication systems.
+
+    Grants and Funding:
+      - name: Faculty Development Grant
+        summary: "James Madison University — Principal Investigator"
+        start_date: 2025
+        end_date: 2025
+        highlights:
+          - Supports faculty research development and student-engaged scholarship.
+
+      - name: Prior Externally Funded Research Support
+        summary: "Stevens Institute of Technology — Graduate Research Assistant"
+        start_date: 2021
+        end_date: 2025
+        highlights:
+          - Contributed to externally funded research in wireless security and AI-enabled systems.
+
+    Teaching Experience:
+      - company: James Madison University
+        position: Instructor
+        location: Harrisonburg, VA, USA
+        start_date: 2025-08
+        end_date: present
+        highlights:
+          - "IT 201: Computational Structures and Logic, with laboratory"
+          - "IT 212: Digital Electronics, with laboratory"
+
+      - company: Stevens Institute of Technology
+        position: Instructor
+        location: Hoboken, NJ, USA
+        start_date: 2024-08
+        end_date: 2025-05
+        highlights:
+          - "EE/CPE/AAI 595: Applied Machine Learning"
+
+      - company: Stevens Institute of Technology
+        position: Graduate Teaching Assistant and Lead Laboratory Instructor
+        location: Hoboken, NJ, USA
+        start_date: 2022-01
+        end_date: 2024-05
+        highlights:
+          - "ENGR 232 / ENGR 212 Laboratories: Analog Circuits"
+
+      - company: Kookmin University
+        position: Graduate Teaching Assistant
+        location: Seoul, South Korea
+        start_date: 2019-09
+        end_date: 2019-12
+        highlights:
+          - "Basic Electronic Circuits I Laboratory"
+
+    Student Mentoring and Research Supervision:
+      - company: James Madison University
+        position: Faculty Research Advisor and Capstone Supervisor
+        location: Harrisonburg, VA, USA
+        start_date: 2025-08
+        end_date: present
+        highlights:
+          - Advises two undergraduate researchers on energy-aware IoT security.
+          - Supervises a senior capstone project on UAV-enabled wireless security.
+
+      - company: Stevens Institute of Technology
+        position: Collaborative Research Mentor
+        location: Hoboken, NJ, USA
+        start_date: 2025
+        end_date: present
+        highlights:
+          - Co-mentors two undergraduate projects on cross-layer wireless security.
+          - Mentors three graduate students on AI-powered mental health prediction.
+
+      - company: Stevens Institute of Technology
+        position: Peer and Academic Mentor
+        location: Hoboken, NJ, USA
+        start_date: 2022
+        end_date: 2025
+        highlights:
+          - Official peer mentor in the Doctoral Student Peer Mentoring Program.
+          - Academic mentor for master's and undergraduate students in the ECE Scholarship Program.
+
+    Professional Service:
+      - company: Journal Reviewing
+        position: Reviewer
+        summary: >
+          IEEE Transactions on Communications; IEEE Transactions on Vehicular
+          Technology; IEEE Journal on Selected Areas in Communications; IEEE
+          Communications Magazine; IEEE Access; Computer Networks; Scientific
+          Reports; and other journals.
+
+      - company: Conference Service
+        position: Technical Program Committee Member and Reviewer
+        highlights:
+          - IEEE INFOCOM 2026 — TPC, EIN 2026
+          - IEEE INFOCOM 2026 — TPC, ISAC-FutureG 2026
+          - IEEE SM 2026; IEEE GCAIoT 2025; ICCIT 2025; EICT 2025 — Reviewer
+          - IEEE INFOCOM 2023 — Lead Student Volunteer
+          - ICUFN 2018 and KICS 2018 — Student Volunteer
+
+    Leadership:
+      - company: ECE PhD Research Club, Stevens Institute of Technology
+        position: President
+        location: Hoboken, NJ, USA
+        start_date: 2023-03
+        end_date: 2025-05
+
+      - company: Bangladeshi Student Association, Stevens Institute of Technology
+        position: President
+        location: Hoboken, NJ, USA
+        start_date: 2024-06
+        end_date: 2025-05
+
+    Honors and Awards:
+      - title: First Prize, Ph.D. Research Expo
+        authors:
+          - Stevens Institute of Technology
+        date: 2023
+        awarder: Stevens Institute of Technology
+        summary: Recognized for excellence in doctoral research presentation.
+
+      - title: Third Prize, ECE Three Minute Thesis Competition
+        authors:
+          - Stevens Institute of Technology
+        date: 2024
+        awarder: Stevens Institute of Technology
+        summary: Recognized for concise and effective research communication.
+
+      - title: Provost Doctoral Fellowship
+        authors:
+          - Stevens Institute of Technology
+        date: 2021
+        awarder: Stevens Institute of Technology
+
+      - title: Graduate School Academic Excellence Award
+        authors:
+          - Kookmin University
+        date: 2019
+        awarder: Kookmin University
+
+    Professional Development:
+      - name: Teaching at the College Level Certificate Program
+        date: 2025
+        issuer: Stevens Institute of Technology
+        icon: fa-solid fa-chalkboard-user
