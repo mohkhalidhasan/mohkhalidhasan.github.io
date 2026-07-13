@@ -131,7 +131,7 @@ h2 a[href$="/publications/"] {
 
 I am an Assistant Professor in the Department of Computer Science at James Madison University. My research lies at the intersection of wireless communications and cybersecurity, with particular interests in federated learning, secure and trustworthy machine learning, wireless and networked systems, and security for UAV and IoT environments.
 
-My work examines how intelligent and distributed systems behave under adversarial conditions and how practical defenses can be developed for real-world, resource-constrained environments. I also involve undergraduate students in applied research projects spanning cybersecurity, machine learning, and emerging networked systems.
+My work examines how intelligent and distributed systems behave under adversarial conditions and how practical defenses can be developed for real-world, resource-constrained environments. 
 
 <div class="profile-clear"></div>
 
