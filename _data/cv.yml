@@ -17,7 +17,7 @@ cv:
   address:
     city: Harrisonburg
     region: Virginia
-    postalCode: "22807"
+    postalCode: "22801"
     countryCode: US
 
   sections:
@@ -29,37 +29,33 @@ cv:
         end_date: present
         summary: Tenure-track faculty appointment in computer science.
         highlights:
-          - Conducts research in wireless communications, cybersecurity, trustworthy machine learning, and secure networked systems.
-          - Teaches undergraduate courses and supervises undergraduate research and capstone projects.
+        
 
       - company: AISECLAB, Stevens Institute of Technology
         position: Graduate Research Assistant
         location: Hoboken, NJ, USA
         start_date: "2021-02"
         end_date: "2025-06"
-        summary: Research in wireless security and learning-driven communication systems.
+        summary: 
         highlights:
-          - Investigated physical-layer security, privacy, cognitive radio, dynamic spectrum sharing, NOMA, UAV-assisted networks, and RIS-enabled communications.
-          - Developed analytical and learning-based methods for secure and efficient wireless resource allocation.
+          
 
       - company: WiComAI Lab, Kookmin University
         position: Research Associate
         location: Seoul, South Korea
         start_date: "2019-09"
         end_date: "2021-01"
-        summary: Research in optical wireless communication and intelligent networked systems.
+        summary: 
         highlights:
-          - Worked on optical camera communication, hybrid optical/RF networking, machine-learning-assisted communication systems, and IoT applications.
-
+         
       - company: WiComAI Lab, Kookmin University
         position: Graduate Research Assistant
         location: Seoul, South Korea
         start_date: "2017-09"
         end_date: "2019-08"
-        summary: Graduate research in optical camera and visible-light communication.
+        summary: 
         highlights:
-          - Developed and evaluated communication systems for localization, healthcare, transportation, and mobile robotic applications.
-
+          
     Education:
       - institution: Stevens Institute of Technology
         degree: Ph.D.
@@ -241,19 +237,25 @@ cv:
       - bullet: "**President, Bangladeshi Student Association, Stevens Institute of Technology** — June 2024–May 2025."
 
     Honors and Awards:
+      - name: Outstanding Ph.D. Dissertation Award in Electrical Engineering
+        title: Outstanding Ph.D. Dissertation Award in Electrical Engineering
+        date: "2026"
+        awarder: Stevens Institute of Technology
+        location: Stevens Institute of Technology
+        summary: 
       - name: Third Prize, ECE Three Minute Thesis Competition
         title: Third Prize, ECE Three Minute Thesis Competition
         date: "2024"
         awarder: Stevens Institute of Technology
         location: Stevens Institute of Technology
-        summary: Recognized for concise and effective research communication.
+        summary: 
 
       - name: First Prize, Ph.D. Research Expo
         title: First Prize, Ph.D. Research Expo
         date: "2023"
         awarder: Stevens Institute of Technology
         location: Stevens Institute of Technology
-        summary: Recognized for excellence in doctoral research presentation.
+        summary: 
 
       - name: Provost Doctoral Fellowship
         title: Provost Doctoral Fellowship
