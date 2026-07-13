@@ -167,6 +167,6 @@ My work examines how intelligent and distributed systems behave under adversaria
 
 <div class="home-actions">
   <a class="home-action" href="{{ '/publications/' | relative_url }}">View Publications</a>
-  <a class="home-action" href="{{ '/projects/' | relative_url }}">Projects &amp; Grants</a>
+  <a class="home-action" href="{{ '/projects/' | relative_url }}">Current Projects</a>
   <a class="home-action" href="{{ '/people/' | relative_url }}">Research Group</a>
 </div>
