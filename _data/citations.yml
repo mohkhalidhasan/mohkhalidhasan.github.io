@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-31'
+  last_updated: '2026-08-05'
 papers:
   4Uv2SsRQT2gC:0EnyYjriUFMC:
-    citations: 19
+    citations: 20
     title: Opportunities of optical spectrum for future wireless communications
     year: '2019'
   4Uv2SsRQT2gC:1sJd4Hv_s6UC:
@@ -10,7 +10,7 @@ papers:
     title: MADDPG-Driven Uplink Secrecy Optimization for Multi-User MIMO-NOMA Networks
     year: '2025'
   4Uv2SsRQT2gC:2osOgNQ5qMEC:
-    citations: 51
+    citations: 50
     title: A new vehicle localization scheme based on combined optical camera communication and photogrammetry
     year: '2018'
   4Uv2SsRQT2gC:3fE2CSJIrl8C:
@@ -38,7 +38,7 @@ papers:
     title: Deep Learning Based Object Detection Methods in Android Smartphone
     year: '2019'
   4Uv2SsRQT2gC:7PzlFSSx8tAC:
-    citations: 89
+    citations: 86
     title: Area-time efficient hardware implementation of modular multiplication for elliptic curve cryptography
     year: '2020'
   4Uv2SsRQT2gC:8k81kl-MbHgC:
@@ -66,15 +66,15 @@ papers:
     title: Integrated RF/Optical Wireless Networks for Improving QoS in Indoor and Transportation Applications
     year: '2018'
   4Uv2SsRQT2gC:IWHjjKOFINEC:
-    citations: 36
+    citations: 35
     title: Experimental demonstration of continuous sensor data monitoring using neural network-based optical camera communications
     year: '2020'
   4Uv2SsRQT2gC:IjCSPb-OGe4C:
-    citations: 73
+    citations: 70
     title: Integrated RF/optical wireless networks for improving QoS in indoor and transportation applications
     year: '2019'
   4Uv2SsRQT2gC:KlAtU1dfN6UC:
-    citations: 385
+    citations: 377
     title: 'The role of optical wireless communication technologies in 5G/6G and IoT solutions: Prospects, directions, and challenges'
     year: '2019'
   4Uv2SsRQT2gC:L8Ckcad2t8MC:
@@ -86,11 +86,11 @@ papers:
     title: Optical wireless hybrid networks for 5G and beyond communications
     year: '2020'
   4Uv2SsRQT2gC:M3ejUd6NZC8C:
-    citations: 147
+    citations: 139
     title: FPGA implementation of high-speed area-efficient processor for elliptic curve point multiplication over prime field
     year: '2019'
   4Uv2SsRQT2gC:MXK_kJrjxJIC:
-    citations: 54
+    citations: 55
     title: 'Smartphone camera-based optical wireless communication system: requirements and implementation challenges'
     year: '2019'
   4Uv2SsRQT2gC:NhqRSupF_l8C:
@@ -110,7 +110,7 @@ papers:
     title: Optimum LED coverage utilization in OCC for effective communication with mobile robot
     year: '2020'
   4Uv2SsRQT2gC:Se3iqnhoufwC:
-    citations: 94
+    citations: 88
     title: Real-time healthcare data transmission for remote patient monitoring in patch-based hybrid OCC/BLE networks
     year: '2019'
   4Uv2SsRQT2gC:SeFeTyx0c_EC:
@@ -170,7 +170,7 @@ papers:
     title: Secured Full-Duplex UAV-Aided Spectrum-Sharing Network Based on NOMA
     year: '2023'
   4Uv2SsRQT2gC:a0OBvERweLwC:
-    citations: 16
+    citations: 19
     title: Continuous Status Monitoring of Industrial Valve Using OCC-Enabled Wireless Sensor Network
     year: '2021'
   4Uv2SsRQT2gC:abG-DnoFyZgC:
@@ -182,11 +182,11 @@ papers:
     title: Intensity-Modulated Frequency-Shift On-Off Keying for Image Sensor Based Visible Light Communications
     year: '2019'
   4Uv2SsRQT2gC:b0M2c_1WBrUC:
-    citations: 7
-    title: U-Net-Based Optical Camera Communication in Intensity-Constrained Scenarios
+    citations: 8
+    title: U-Net-based optical camera communication in intensity-constrained scenarios
     year: '2025'
   4Uv2SsRQT2gC:cFHS6HbyZ2cC:
-    citations: 10
+    citations: 9
     title: Design of an SVM Classifier Assisted Intelligent Receiver for Reliable Optical Camera Communication
     year: '2021'
   4Uv2SsRQT2gC:d1gkVwhDpl0C:
@@ -206,11 +206,11 @@ papers:
     title: Over-the-Air Federated Learning with Enhanced Privacy
     year: '2023'
   4Uv2SsRQT2gC:g5m5HwL7SMYC:
-    citations: 61
+    citations: 58
     title: The role of deep learning in NOMA for 5G and beyond communications
     year: '2020'
   4Uv2SsRQT2gC:hC7cP41nSMkC:
-    citations: 62
+    citations: 58
     title: Design and implementation of high-performance ECC processor with unified point addition on twisted edwards curve
     year: '2020'
   4Uv2SsRQT2gC:hqOjcs7Dif8C:
@@ -226,11 +226,11 @@ papers:
     title: Spectrum Allocation and Optimization using Machine Learning in Optical Wireless Communications
     year: '2019'
   4Uv2SsRQT2gC:mB3voiENLucC:
-    citations: 48
+    citations: 47
     title: Design and Implementation of an OCC-based real-time heart rate and pulse-oxygen saturation monitoring system
     year: '2020'
   4Uv2SsRQT2gC:mVmsd5A6BfQC:
-    citations: 434
+    citations: 429
     title: 'Optical wireless hybrid networks: Trends, opportunities, challenges, and research directions'
     year: '2020'
   4Uv2SsRQT2gC:pqnbT2bcN3wC:
