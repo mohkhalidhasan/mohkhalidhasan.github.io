@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-10'
 papers:
   4Uv2SsRQT2gC:0EnyYjriUFMC:
     citations: 20
@@ -38,7 +38,7 @@ papers:
     title: Deep Learning Based Object Detection Methods in Android Smartphone
     year: '2019'
   4Uv2SsRQT2gC:7PzlFSSx8tAC:
-    citations: 86
+    citations: 87
     title: Area-time efficient hardware implementation of modular multiplication for elliptic curve cryptography
     year: '2020'
   4Uv2SsRQT2gC:8k81kl-MbHgC:
@@ -74,7 +74,7 @@ papers:
     title: Integrated RF/optical wireless networks for improving QoS in indoor and transportation applications
     year: '2019'
   4Uv2SsRQT2gC:KlAtU1dfN6UC:
-    citations: 377
+    citations: 380
     title: 'The role of optical wireless communication technologies in 5G/6G and IoT solutions: Prospects, directions, and challenges'
     year: '2019'
   4Uv2SsRQT2gC:L8Ckcad2t8MC:
@@ -118,7 +118,7 @@ papers:
     title: A New Vehicle Localization Scheme Based on Combined Optical Camera Communication and Photogrammetry
     year: '2018'
   4Uv2SsRQT2gC:Tyk-4Ss8FVUC:
-    citations: 46
+    citations: 47
     title: An implementation approach and performance analysis of image sensor based multilateral indoor localization and navigation system
     year: '2018'
   4Uv2SsRQT2gC:ULOm3_A8WrAC:
@@ -174,7 +174,7 @@ papers:
     title: Continuous Status Monitoring of Industrial Valve Using OCC-Enabled Wireless Sensor Network
     year: '2021'
   4Uv2SsRQT2gC:abG-DnoFyZgC:
-    citations: 2
+    citations: 3
     title: Channel-Adaptive Privacy Enhancement for NOMA-Based Antagonistic Overlay Cognitive Networks
     year: '2025'
   4Uv2SsRQT2gC:aqlVkmm33-oC:
@@ -182,7 +182,7 @@ papers:
     title: Intensity-Modulated Frequency-Shift On-Off Keying for Image Sensor Based Visible Light Communications
     year: '2019'
   4Uv2SsRQT2gC:b0M2c_1WBrUC:
-    citations: 8
+    citations: 9
     title: U-Net-based optical camera communication in intensity-constrained scenarios
     year: '2025'
   4Uv2SsRQT2gC:cFHS6HbyZ2cC:
@@ -230,7 +230,7 @@ papers:
     title: Design and Implementation of an OCC-based real-time heart rate and pulse-oxygen saturation monitoring system
     year: '2020'
   4Uv2SsRQT2gC:mVmsd5A6BfQC:
-    citations: 429
+    citations: 430
     title: 'Optical wireless hybrid networks: Trends, opportunities, challenges, and research directions'
     year: '2020'
   4Uv2SsRQT2gC:pqnbT2bcN3wC:
