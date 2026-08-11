@@ -1,6 +1,17 @@
-# Homepage news cards.
-# Add newest items first. Use an internal path (e.g., /publications/) or a full external URL.
-# image is optional. If omitted, the card will show a simple category banner instead.
+# Homepage news.
+# Newest items should appear first.
+#
+# image:
+#   Optional. If you upload your own image, use a path such as:
+#   assets/img/news/my-image.jpg
+#
+# preview_url:
+#   Optional external page used to retrieve a representative image automatically
+#   when "image" is blank.
+#
+# link:
+#   The destination when a visitor clicks the card. It can be an internal page
+#   such as /publications/ or a full external URL.
 
 - title: "New Publication in IEEE Transactions on Vehicular Technology"
   date: "Feb 2026"
@@ -9,6 +20,7 @@
   link: "/publications/"
   external: false
   image: ""
+  preview_url: "https://doi.org/10.1109/TVT.2025.3606837"
 
 - title: "New Publication in Journal of Lightwave Technology"
   date: "May 2025"
@@ -17,6 +29,7 @@
   link: "/publications/"
   external: false
   image: ""
+  preview_url: "https://doi.org/10.1109/JLT.2025.3543281"
 
 - title: "Faculty Development Grant"
   date: "2025"
@@ -25,21 +38,26 @@
   link: "/projects/"
   external: false
   image: ""
+  preview_url: ""
 
-# Example additional entries:
+# Example with a manually uploaded cover:
 #
-# - title: "Invited Talk at [Event]"
-#   date: "Mon YYYY"
+# - title: "Invited Talk at Example Event"
+#   date: "Nov 2026"
 #   category: "Talk"
-#   description: "Short one-sentence description."
-#   link: "https://example.com"
+#   description: "Invited presentation on secure and intelligent wireless systems."
+#   link: "https://example.org/event"
 #   external: true
-#   image: "assets/img/news/talk.jpg"
+#   image: "assets/img/news/example-talk.jpg"
+#   preview_url: "https://example.org/event"
 #
-# - title: "Student Research Achievement"
-#   date: "Mon YYYY"
-#   category: "Students"
-#   description: "Short one-sentence description."
-#   link: "/people/"
-#   external: false
+# Example with automatic cover retrieval:
+#
+# - title: "Conference Service"
+#   date: "Oct 2026"
+#   category: "Service"
+#   description: "Invited to serve on the technical program committee."
+#   link: "https://example.org/conference"
+#   external: true
 #   image: ""
+#   preview_url: "https://example.org/conference"
