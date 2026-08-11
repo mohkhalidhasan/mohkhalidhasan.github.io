@@ -1,15 +1,17 @@
 # Homepage news.
-# Keep newest items first.
+# Keep the newest item first.
 #
 # image:
-# Optional manually uploaded cover image.
-# Example: assets/img/news/my-image.jpg
+#   Optional.
+#   If you upload your own cover image, use:
+#   assets/img/news/example.jpg
 #
 # preview_url:
-# Used to retrieve a representative image automatically when image is blank.
+#   If image is blank, the website will try to retrieve
+#   a representative image from this page automatically.
 #
 # link:
-# Destination when the visitor clicks the news card.
+#   Where the visitor goes after clicking the card.
 
 - title: "New Publication in IEEE Transactions on Vehicular Technology"
   date: "Feb 2026"
