@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 nav: true
 nav_order: 6
-description: Courses taught in computing, digital systems, machine learning, and electronics.
+description: Courses taught in wireless communications, cybersecurity, computing, digital systems, machine learning, and electronics.
 ---
 
 <style>
@@ -78,7 +78,7 @@ description: Courses taught in computing, digital systems, machine learning, and
 </style>
 
 <div class="teaching-intro">
-My teaching spans computing foundations, digital systems, electronics, and applied machine learning. Across these courses, I emphasize the connection between core concepts, hands-on implementation, and practical problem solving.
+My teaching spans wireless communications and cybersecurity, computing foundations, digital systems, electronics, and applied machine learning. Across these courses, I emphasize the connection between fundamental concepts, hands-on experimentation, and practical problem solving.
 </div>
 
 ## James Madison University
@@ -86,9 +86,22 @@ My teaching spans computing foundations, digital systems, electronics, and appli
 <div class="course-grid">
 
   <div class="course-card">
+    <div class="course-code">IT 465</div>
+    <h3>Wireless Communications &amp; Security</h3>
+    <div class="course-meta">Undergraduate · Lecture and Laboratory · Fall 2026</div>
+    <p>
+      Covers modern wireless communication systems and their security, including
+      wireless channels, modulation, OFDM, MIMO, Wi-Fi and cellular networks,
+      wireless sensing and localization, software-defined radio, and
+      physical-layer security. Laboratory activities connect communication
+      principles with practical wireless experimentation.
+    </p>
+  </div>
+
+  <div class="course-card">
     <div class="course-code">IT 201</div>
     <h3>Computational Structures and Logic</h3>
-    <div class="course-meta">Undergraduate · Lecture and Laboratory · Fall 2025, Spring 2026</div>
+    <div class="course-meta">Undergraduate · Lecture and Laboratory · Fall 2025, Spring 2026, Fall 2026</div>
     <p>
       Introduces foundational computational structures and logical reasoning through
       a combination of conceptual instruction and hands-on laboratory work.
