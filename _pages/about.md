@@ -31,6 +31,10 @@ latest_posts:
     clear: both;
   }
 
+  /* =========================
+     Research Focus
+     ========================= */
+
   .research-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -66,6 +70,10 @@ latest_posts:
     margin: 0;
   }
 
+  /* =========================
+     Homepage Buttons
+     ========================= */
+
   .home-actions {
     display: flex;
     flex-wrap: wrap;
@@ -91,6 +99,10 @@ latest_posts:
     text-decoration: none;
   }
 
+  /* =========================
+     Social Links
+     ========================= */
+
   .social .contact-icons {
     font-size: 2rem;
   }
@@ -99,12 +111,9 @@ latest_posts:
     margin: 0 0.3rem;
   }
 
-  .social .contact-note {
-    font-size: 0.9rem;
-    margin-top: 0.7rem;
-  }
-
-  /* ---------- Latest News ---------- */
+  /* =========================
+     Latest News
+     ========================= */
 
   .home-news-section {
     clear: both;
@@ -124,14 +133,17 @@ latest_posts:
 
   .news-card {
     display: flex;
-    min-width: 0;
     flex-direction: column;
+    min-width: 0;
     overflow: hidden;
+
     background: var(--global-card-bg-color, transparent);
     border: 1px solid var(--global-divider-color, #d8d8d8);
     border-radius: 10px;
+
     color: var(--global-text-color);
     text-decoration: none !important;
+
     transition:
       transform 0.18s ease,
       box-shadow 0.18s ease,
@@ -145,39 +157,50 @@ latest_posts:
     color: var(--global-text-color);
   }
 
+  /* Cover image */
+
   .news-media {
     position: relative;
     width: 100%;
     height: 118px;
     overflow: hidden;
+
     background: color-mix(
       in srgb,
       var(--global-theme-color, #450084) 8%,
       var(--global-bg-color, #ffffff)
     );
+
     border-bottom: 1px solid var(--global-divider-color, #d8d8d8);
   }
 
   .news-image {
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block;
   }
+
+  /* Used only when no image can be found */
 
   .news-fallback {
     position: absolute;
     inset: 0;
+
     display: flex;
     align-items: center;
     justify-content: center;
+
     padding: 1rem;
+
     color: var(--global-theme-color, #450084);
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }
+
+  /* News text */
 
   .news-content {
     display: flex;
@@ -207,7 +230,8 @@ latest_posts:
     overflow: hidden;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
-    font-size: 0.80rem;
+
+    font-size: 0.8rem;
     line-height: 1.45;
     margin: 0 0 0.65rem;
     opacity: 0.84;
@@ -221,6 +245,10 @@ latest_posts:
     text-align: right;
     text-transform: uppercase;
   }
+
+  /* =========================
+     Responsive Layout
+     ========================= */
 
   @media (min-width: 700px) {
     .profile {
@@ -296,9 +324,28 @@ My work examines how intelligent and distributed systems behave under adversaria
 </div>
 
 <div class="home-actions">
-  <a class="home-action" href="{{ '/publications/' | relative_url }}">View Publications</a>
-  <a class="home-action" href="{{ '/projects/' | relative_url }}">Current Projects</a>
-  <a class="home-action" href="{{ '/people/' | relative_url }}">Research Group</a>
+
+  <a
+    class="home-action"
+    href="{{ '/publications/' | relative_url }}"
+  >
+    View Publications
+  </a>
+
+  <a
+    class="home-action"
+    href="{{ '/projects/' | relative_url }}"
+  >
+    Current Projects
+  </a>
+
+  <a
+    class="home-action"
+    href="{{ '/people/' | relative_url }}"
+  >
+    Research Group
+  </a>
+
 </div>
 
 <div class="home-news-section">
@@ -306,27 +353,36 @@ My work examines how intelligent and distributed systems behave under adversaria
 <h2>Latest News</h2>
 
 <div class="news-grid">
+
 {% for item in site.data.news limit:6 %}
 
-  {% assign link_first_four = item.link | slice: 0, 4 %}
-  {% assign image_first_four = item.image | slice: 0, 4 %}
+  {% assign news_link = item.link | default: "" %}
+  {% assign news_image = item.image | default: "" %}
+  {% assign preview_url = item.preview_url | default: "" %}
+
+  {% assign link_first_four = news_link | slice: 0, 4 %}
+  {% assign image_first_four = news_image | slice: 0, 4 %}
 
   <a
     class="news-card"
-    href="{% if link_first_four == 'http' %}{{ item.link }}{% else %}{{ item.link | relative_url }}{% endif %}"
-    {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}
-    data-preview-url="{{ item.preview_url | default: '' | escape }}"
+    href="{% if link_first_four == 'http' %}{{ news_link }}{% else %}{{ news_link | relative_url }}{% endif %}"
+    {% if item.external %}
+      target="_blank"
+      rel="noopener noreferrer"
+    {% endif %}
+    data-preview-url="{{ preview_url | escape }}"
     aria-label="{{ item.title | escape }}"
   >
 
     <div class="news-media">
 
-      {% if item.image and item.image != "" %}
+      {% if news_image != "" %}
 
         <img
           class="news-image"
-          src="{% if image_first_four == 'http' %}{{ item.image }}{% else %}{{ item.image | relative_url }}{% endif %}"
-          alt=""
+          src="{% if image_first_four == 'http' %}{{ news_image }}{% else %}{{ news_image | relative_url }}{% endif %}"
+          alt="{{ item.title | escape }}"
+          loading="lazy"
         >
 
       {% else %}
@@ -334,7 +390,8 @@ My work examines how intelligent and distributed systems behave under adversaria
         <img
           class="news-image news-auto-image"
           src=""
-          alt=""
+          alt="{{ item.title | escape }}"
+          loading="lazy"
           hidden
         >
 
@@ -352,9 +409,13 @@ My work examines how intelligent and distributed systems behave under adversaria
         {{ item.category }}
       </div>
 
-      <h3>{{ item.title }}</h3>
+      <h3>
+        {{ item.title }}
+      </h3>
 
-      <p>{{ item.description }}</p>
+      <p>
+        {{ item.description }}
+      </p>
 
       <div class="news-date">
         {{ item.date }}
@@ -365,51 +426,78 @@ My work examines how intelligent and distributed systems behave under adversaria
   </a>
 
 {% endfor %}
+
 </div>
 
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const cards = document.querySelectorAll(".news-card[data-preview-url]");
+  const cards = document.querySelectorAll(
+    ".news-card[data-preview-url]"
+  );
 
-  cards.forEach(async function (card) {
+  cards.forEach(function (card) {
     const previewUrl = card.dataset.previewUrl;
-    const autoImage = card.querySelector(".news-auto-image");
+    const image = card.querySelector(".news-auto-image");
     const fallback = card.querySelector(".news-fallback");
 
-    if (!previewUrl || !autoImage) return;
-
-    try {
-      const endpoint =
-        "https://api.microlink.io/?url=" +
-        encodeURIComponent(previewUrl);
-
-      const response = await fetch(endpoint);
-      if (!response.ok) return;
-
-      const result = await response.json();
-      const imageUrl =
-        result &&
-        result.data &&
-        result.data.image &&
-        result.data.image.url;
-
-      if (!imageUrl) return;
-
-      autoImage.addEventListener("load", function () {
-        autoImage.hidden = false;
-        if (fallback) fallback.hidden = true;
-      });
-
-      autoImage.src = imageUrl;
-    } catch (error) {
-      /* Keep the category fallback if preview retrieval fails. */
+    /*
+     * If:
+     *  - an image was manually supplied, there will be no
+     *    .news-auto-image element;
+     *  - no preview URL was supplied, keep the category fallback.
+     */
+    if (!previewUrl || !image) {
+      return;
     }
+
+    const encodedUrl = encodeURIComponent(previewUrl);
+
+    /*
+     * First try the representative/Open Graph image
+     * from the external page.
+     */
+    const imageEndpoint =
+      "https://api.microlink.io/?url=" +
+      encodedUrl +
+      "&embed=image.url";
+
+    /*
+     * If the page does not provide a representative image,
+     * try a screenshot of the external page.
+     */
+    const screenshotEndpoint =
+      "https://api.microlink.io/?url=" +
+      encodedUrl +
+      "&screenshot=true" +
+      "&meta=false" +
+      "&embed=screenshot.url";
+
+    let triedScreenshot = false;
+
+    image.addEventListener("load", function () {
+      image.hidden = false;
+
+      if (fallback) {
+        fallback.hidden = true;
+      }
+    });
+
+    image.addEventListener("error", function () {
+      if (!triedScreenshot) {
+        triedScreenshot = true;
+        image.src = screenshotEndpoint;
+      } else {
+        image.hidden = true;
+
+        if (fallback) {
+          fallback.hidden = false;
+        }
+      }
+    });
+
+    image.src = imageEndpoint;
   });
 });
 </script>
-{% endfor %}
-</div>
-
-</div>
