@@ -1,0 +1,45 @@
+# Homepage news cards.
+# Add newest items first. Use an internal path (e.g., /publications/) or a full external URL.
+# image is optional. If omitted, the card will show a simple category banner instead.
+
+- title: "New Publication in IEEE Transactions on Vehicular Technology"
+  date: "Feb 2026"
+  category: "Publication"
+  description: "Our work on channel-adaptive privacy enhancement for NOMA-based antagonistic overlay cognitive networks was published in IEEE Transactions on Vehicular Technology."
+  link: "/publications/"
+  external: false
+  image: ""
+
+- title: "New Publication in Journal of Lightwave Technology"
+  date: "May 2025"
+  category: "Publication"
+  description: "Our work on U-Net-based optical camera communication in intensity-constrained scenarios was published in the Journal of Lightwave Technology."
+  link: "/publications/"
+  external: false
+  image: ""
+
+- title: "Faculty Development Grant"
+  date: "2025"
+  category: "Grant"
+  description: "Received a Faculty Development Grant from James Madison University to support research development and student-engaged scholarship."
+  link: "/projects/"
+  external: false
+  image: ""
+
+# Example additional entries:
+#
+# - title: "Invited Talk at [Event]"
+#   date: "Mon YYYY"
+#   category: "Talk"
+#   description: "Short one-sentence description."
+#   link: "https://example.com"
+#   external: true
+#   image: "assets/img/news/talk.jpg"
+#
+# - title: "Student Research Achievement"
+#   date: "Mon YYYY"
+#   category: "Students"
+#   description: "Short one-sentence description."
+#   link: "/people/"
+#   external: false
+#   image: ""
