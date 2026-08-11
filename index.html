@@ -135,12 +135,12 @@
     color: var(--global-text-color);
   }
 
-  /* Cover image */
+  /* ---------- News cover ---------- */
 
   .news-media {
     position: relative;
     width: 100%;
-    height: 118px;
+    height: 112px;
     overflow: hidden;
 
     background: color-mix(
@@ -153,13 +153,17 @@
   }
 
   .news-image {
-    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
   }
 
-  /* Used only when no image can be found */
+  .news-image[hidden] {
+    display: none !important;
+  }
+
+  /* Displayed only when no usable image is available */
 
   .news-fallback {
     position: absolute;
@@ -172,13 +176,23 @@
     padding: 1rem;
 
     color: var(--global-theme-color, #450084);
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    background: color-mix(
+      in srgb,
+      var(--global-theme-color, #450084) 7%,
+      var(--global-bg-color, #ffffff)
+    );
   }
 
-  /* News text */
+  .news-fallback[hidden] {
+    display: none !important;
+  }
+
+  /* ---------- News text ---------- */
 
   .news-content {
     display: flex;
@@ -260,77 +274,112 @@
     }
 
     .news-media {
-      height: 150px;
+      height: 145px;
     }
   }
-</style> <p>I am an Assistant Professor in the Department of Computer Science at James Madison University. My research lies at the intersection of wireless communications and cybersecurity, with particular interests in federated learning, secure and trustworthy machine learning, wireless and networked systems, and security for UAV and IoT environments.</p> <p>My work examines how intelligent and distributed systems behave under adversarial conditions and how practical defenses can be developed for real-world, resource-constrained environments. Please feel free to email me with questions or to discuss potential research collaborations.</p> <div class="profile-clear"></div> <h2 id="research-focus">Research Focus</h2> <div class="research-grid"> <div class="research-card"> <h3>Wireless Communications</h3> <p> Secure and efficient communication for next-generation wireless, cognitive radio, spectrum sharing, and networked systems. </p> </div> <div class="research-card"> <h3>Secure and Trustworthy AI</h3> <p> Federated learning, adversarial threats, poisoning attacks, and practical defenses for distributed machine learning. </p> </div> <div class="research-card"> <h3>UAV, IoT, and Cyber-Physical Systems</h3> <p> Security and resilience for autonomous, resource-constrained, and highly distributed computing environments. </p> </div> </div> <div class="home-actions"> <a class="home-action" href="/publications/"> View Publications </a> <a class="home-action" href="/projects/"> Current Projects </a> <a class="home-action" href="/people/"> Research Group </a> </div> <div class="home-news-section"> <h2>Latest News</h2> <div class="news-grid"> <a class="news-card" href="https://stevens-institute-of-technology.dcatalog.com/v/Graduate-Awards-Ceremony/?page=8" target="_blank" rel="noopener noreferrer" data-preview-url="https://stevens-institute-of-technology.dcatalog.com/v/Graduate-Awards-Ceremony/?page=8" aria-label="Outstanding Ph.D. Dissertation Award"> <div class="news-media"> <img class="news-image news-auto-image" src="" alt="Outstanding Ph.D. Dissertation Award" loading="lazy" hidden=""> <div class="news-fallback"> Award </div> </div> <div class="news-content"> <div class="news-category"> Award </div> <h3> Outstanding Ph.D. Dissertation Award </h3> <p> Received the Outstanding Ph.D. Dissertation Award in Electrical Engineering from Stevens Institute of Technology. </p> <div class="news-date"> May 2026 </div> </div> </a> <a class="news-card" href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener noreferrer" data-preview-url="https://milcom2026.ieee-milcom.org/" aria-label="Invited to Serve on the MILCOM 2026 TPC"> <div class="news-media"> <img class="news-image news-auto-image" src="" alt="Invited to Serve on the MILCOM 2026 TPC" loading="lazy" hidden=""> <div class="news-fallback"> Service </div> </div> <div class="news-content"> <div class="news-category"> Service </div> <h3> Invited to Serve on the MILCOM 2026 TPC </h3> <p> Invited to serve on the Technical Program Committee for MILCOM 2026, Unclassified Track 3: Cybersecurity and Trusted Edge Computing. </p> <div class="news-date"> May 2026 </div> </div> </a> <a class="news-card" href="https://4-va.org/" target="_blank" rel="noopener noreferrer" data-preview-url="https://4-va.org/" aria-label="4-VA Collaborative Research Grant"> <div class="news-media"> <img class="news-image news-auto-image" src="" alt="4-VA Collaborative Research Grant" loading="lazy" hidden=""> <div class="news-fallback"> Grant </div> </div> <div class="news-content"> <div class="news-category"> Grant </div> <h3> 4-VA Collaborative Research Grant </h3> <p> Received a 4-VA Collaborative Research Grant for our work on machine learning-driven predictive secure beamforming for NextG UAV networks. </p> <div class="news-date"> Apr 2026 </div> </div> </a> <a class="news-card" href="https://doi.org/10.1109/TVT.2025.3606837" target="_blank" rel="noopener noreferrer" data-preview-url="https://doi.org/10.1109/TVT.2025.3606837" aria-label="New Publication in IEEE Transactions on Vehicular Technology"> <div class="news-media"> <img class="news-image news-auto-image" src="" alt="New Publication in IEEE Transactions on Vehicular Technology" loading="lazy" hidden=""> <div class="news-fallback"> Publication </div> </div> <div class="news-content"> <div class="news-category"> Publication </div> <h3> New Publication in IEEE Transactions on Vehicular Technology </h3> <p> Our work on channel-adaptive privacy enhancement for NOMA-based antagonistic overlay cognitive networks was published in IEEE Transactions on Vehicular Technology. </p> <div class="news-date"> Feb 2026 </div> </div> </a> <a class="news-card" href="/projects/" data-preview-url="" aria-label="Faculty Development Grant"> <div class="news-media"> <img class="news-image" src="/assets/img/FDG.png" alt="Faculty Development Grant" loading="lazy"> </div> <div class="news-content"> <div class="news-category"> Grant </div> <h3> Faculty Development Grant </h3> <p> Received a Faculty Development Grant from James Madison University to support research development and student-engaged scholarship. </p> <div class="news-date"> Dec 2025 </div> </div> </a> <a class="news-card" href="https://infocom2026.ieee-infocom.org/" target="_blank" rel="noopener noreferrer" data-preview-url="https://infocom2026.ieee-infocom.org/" aria-label="Invited to Serve on INFOCOM 2026 Workshop TPCs"> <div class="news-media"> <img class="news-image news-auto-image" src="" alt="Invited to Serve on INFOCOM 2026 Workshop TPCs" loading="lazy" hidden=""> <div class="news-fallback"> Service </div> </div> <div class="news-content"> <div class="news-category"> Service </div> <h3> Invited to Serve on INFOCOM 2026 Workshop TPCs </h3> <p> Invited to serve on the Technical Program Committees for the INFOCOM 2026 ISAC-FutureG and Embodied Intelligence Networks workshops. </p> <div class="news-date"> Nov 2025 </div> </div> </a> </div> </div> <script>
+</style> <p>I am an Assistant Professor in the Department of Computer Science at James Madison University. My research lies at the intersection of wireless communications and cybersecurity, with particular interests in federated learning, secure and trustworthy machine learning, wireless and networked systems, and security for UAV and IoT environments.</p> <p>My work examines how intelligent and distributed systems behave under adversarial conditions and how practical defenses can be developed for real-world, resource-constrained environments. Please feel free to email me with questions or to discuss potential research collaborations.</p> <div class="profile-clear"></div> <h2 id="research-focus">Research Focus</h2> <div class="research-grid"> <div class="research-card"> <h3>Wireless Communications</h3> <p> Secure and efficient communication for next-generation wireless, cognitive radio, spectrum sharing, and networked systems. </p> </div> <div class="research-card"> <h3>Secure and Trustworthy AI</h3> <p> Federated learning, adversarial threats, poisoning attacks, and practical defenses for distributed machine learning. </p> </div> <div class="research-card"> <h3>UAV, IoT, and Cyber-Physical Systems</h3> <p> Security and resilience for autonomous, resource-constrained, and highly distributed computing environments. </p> </div> </div> <div class="home-actions"> <a class="home-action" href="/publications/"> View Publications </a> <a class="home-action" href="/projects/"> Current Projects </a> <a class="home-action" href="/people/"> Research Group </a> </div> <div class="home-news-section"> <h2>Latest News</h2> <div class="news-grid"> <a class="news-card" href="https://stevens-institute-of-technology.dcatalog.com/v/Graduate-Awards-Ceremony/?page=8" target="_blank" rel="noopener noreferrer" data-manual-image="" data-preview-url="https://stevens-institute-of-technology.dcatalog.com/v/Graduate-Awards-Ceremony/?page=8" aria-label="Outstanding Ph.D. Dissertation Award"> <div class="news-media"> <img class="news-image" src="" alt="" hidden=""> <div class="news-fallback"> Award </div> </div> <div class="news-content"> <div class="news-category"> Award </div> <h3> Outstanding Ph.D. Dissertation Award </h3> <p> Received the Outstanding Ph.D. Dissertation Award in Electrical Engineering from Stevens Institute of Technology. </p> <div class="news-date"> May 2026 </div> </div> </a> <a class="news-card" href="https://milcom2026.ieee-milcom.org/" target="_blank" rel="noopener noreferrer" data-manual-image="" data-preview-url="https://milcom2026.ieee-milcom.org/" aria-label="Invited to Serve on the MILCOM 2026 TPC"> <div class="news-media"> <img class="news-image" src="" alt="" hidden=""> <div class="news-fallback"> Service </div> </div> <div class="news-content"> <div class="news-category"> Service </div> <h3> Invited to Serve on the MILCOM 2026 TPC </h3> <p> Invited to serve on the Technical Program Committee for MILCOM 2026, Unclassified Track 3: Cybersecurity and Trusted Edge Computing. </p> <div class="news-date"> May 2026 </div> </div> </a> <a class="news-card" href="https://4-va.org/" target="_blank" rel="noopener noreferrer" data-manual-image="" data-preview-url="https://4-va.org/" aria-label="4-VA Collaborative Research Grant"> <div class="news-media"> <img class="news-image" src="" alt="" hidden=""> <div class="news-fallback"> Grant </div> </div> <div class="news-content"> <div class="news-category"> Grant </div> <h3> 4-VA Collaborative Research Grant </h3> <p> Received a 4-VA Collaborative Research Grant for our work on machine learning-driven predictive secure beamforming for NextG UAV networks. </p> <div class="news-date"> Apr 2026 </div> </div> </a> <a class="news-card" href="https://doi.org/10.1109/TVT.2025.3606837" target="_blank" rel="noopener noreferrer" data-manual-image="" data-preview-url="https://doi.org/10.1109/TVT.2025.3606837" aria-label="New Publication in IEEE Transactions on Vehicular Technology"> <div class="news-media"> <img class="news-image" src="" alt="" hidden=""> <div class="news-fallback"> Publication </div> </div> <div class="news-content"> <div class="news-category"> Publication </div> <h3> New Publication in IEEE Transactions on Vehicular Technology </h3> <p> Our work on channel-adaptive privacy enhancement for NOMA-based antagonistic overlay cognitive networks was published in IEEE Transactions on Vehicular Technology. </p> <div class="news-date"> Feb 2026 </div> </div> </a> <a class="news-card" href="/projects/" data-manual-image="/assets/img/FDG.png" data-preview-url="" aria-label="Faculty Development Grant"> <div class="news-media"> <img class="news-image" src="" alt="" hidden=""> <div class="news-fallback"> Grant </div> </div> <div class="news-content"> <div class="news-category"> Grant </div> <h3> Faculty Development Grant </h3> <p> Received a Faculty Development Grant from James Madison University to support research development and student-engaged scholarship. </p> <div class="news-date"> Dec 2025 </div> </div> </a> <a class="news-card" href="https://infocom2026.ieee-infocom.org/" target="_blank" rel="noopener noreferrer" data-manual-image="" data-preview-url="https://infocom2026.ieee-infocom.org/" aria-label="Invited to Serve on INFOCOM 2026 Workshop TPCs"> <div class="news-media"> <img class="news-image" src="" alt="" hidden=""> <div class="news-fallback"> Service </div> </div> <div class="news-content"> <div class="news-category"> Service </div> <h3> Invited to Serve on INFOCOM 2026 Workshop TPCs </h3> <p> Invited to serve on the Technical Program Committees for the INFOCOM 2026 ISAC-FutureG and Embodied Intelligence Networks workshops. </p> <div class="news-date"> Nov 2025 </div> </div> </a> </div> </div> <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const cards = document.querySelectorAll(
-    ".news-card[data-preview-url]"
-  );
+
+  const cards = document.querySelectorAll(".news-card");
 
   cards.forEach(function (card) {
-    const previewUrl = card.dataset.previewUrl;
-    const image = card.querySelector(".news-auto-image");
+
+    const manualImageUrl = card.dataset.manualImage || "";
+    const previewUrl = card.dataset.previewUrl || "";
+
+    const visibleImage = card.querySelector(".news-image");
     const fallback = card.querySelector(".news-fallback");
 
+    const sources = [];
+
     /*
-     * If:
-     *  - an image was manually supplied, there will be no
-     *    .news-auto-image element;
-     *  - no preview URL was supplied, keep the category fallback.
+     * Priority 1:
+     * Use an image uploaded by you.
      */
-    if (!previewUrl || !image) {
+    if (manualImageUrl) {
+      sources.push(manualImageUrl);
+    }
+
+    /*
+     * Priority 2:
+     * If no uploaded image works, try to retrieve the
+     * representative image from the external page.
+     */
+    if (previewUrl) {
+
+      const encodedUrl = encodeURIComponent(previewUrl);
+
+      const representativeImage =
+        "https://api.microlink.io/?url=" +
+        encodedUrl +
+        "&embed=image.url";
+
+      const pageScreenshot =
+        "https://api.microlink.io/?url=" +
+        encodedUrl +
+        "&screenshot=true" +
+        "&meta=false" +
+        "&embed=screenshot.url";
+
+      sources.push(representativeImage);
+      sources.push(pageScreenshot);
+    }
+
+    /*
+     * If there is no uploaded image and no preview URL,
+     * simply keep the category fallback visible.
+     */
+    if (sources.length === 0) {
       return;
     }
 
-    const encodedUrl = encodeURIComponent(previewUrl);
+    function tryImage(index) {
 
-    /*
-     * First try the representative/Open Graph image
-     * from the external page.
-     */
-    const imageEndpoint =
-      "https://api.microlink.io/?url=" +
-      encodedUrl +
-      "&embed=image.url";
+      /*
+       * Every candidate failed.
+       * Keep the clean category fallback.
+       */
+      if (index >= sources.length) {
 
-    /*
-     * If the page does not provide a representative image,
-     * try a screenshot of the external page.
-     */
-    const screenshotEndpoint =
-      "https://api.microlink.io/?url=" +
-      encodedUrl +
-      "&screenshot=true" +
-      "&meta=false" +
-      "&embed=screenshot.url";
-
-    let triedScreenshot = false;
-
-    image.addEventListener("load", function () {
-      image.hidden = false;
-
-      if (fallback) {
-        fallback.hidden = true;
-      }
-    });
-
-    image.addEventListener("error", function () {
-      if (!triedScreenshot) {
-        triedScreenshot = true;
-        image.src = screenshotEndpoint;
-      } else {
-        image.hidden = true;
+        visibleImage.hidden = true;
 
         if (fallback) {
           fallback.hidden = false;
         }
-      }
-    });
 
-    image.src = imageEndpoint;
+        return;
+      }
+
+      /*
+       * Test the image before placing it in the visible card.
+       * This prevents broken-image icons from appearing.
+       */
+      const tester = new Image();
+
+      tester.onload = function () {
+
+        visibleImage.src = sources[index];
+        visibleImage.hidden = false;
+
+        if (fallback) {
+          fallback.hidden = true;
+        }
+
+      };
+
+      tester.onerror = function () {
+
+        tryImage(index + 1);
+
+      };
+
+      tester.src = sources[index];
+    }
+
+    tryImage(0);
+
   });
+
 });
 </script> </div> <div class="social"> <div class="contact-icons"> <a href="mailto:dwtn6r@jmu.edu" title="Email"><i class="fa-solid fa-envelope"></i></a> <a href="https://scholar.google.com/citations?user=4Uv2SsRQT2gC" title="Scholar userid" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a> <a href="https://www.linkedin.com/in/moh-khalid-hasan" title="Linkedin username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a> <a href="https://github.com/mohkhalidhasan" title="Github username" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="/assets/pdf/Moh_Khalid_Hasan_CV.pdf" title="Cv pdf"><i class="ai ai-cv"></i></a> <a href="https://www.jmu.edu/cise/people/faculty/hasan-moh-khalid.shtml" title="Work url" rel="external nofollow noopener" target="_blank"><i class="fa-solid fa-briefcase"></i></a> </div> <div class="contact-note"></div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Mohammad Khalid Hasan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>. </div> </footer> <script>
   window.alFolio = {
