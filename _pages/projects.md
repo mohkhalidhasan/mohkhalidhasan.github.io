@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 nav: true
 nav_order: 2
-description: Selected ongoing research projects in wireless communications, cybersecurity, trustworthy AI, and intelligent networked systems.
+description: 
 ---
 
 <style>
@@ -57,7 +57,7 @@ description: Selected ongoing research projects in wireless communications, cybe
 </style>
 
 <div class="projects-intro">
-This page highlights selected ongoing and recent research projects. The projects focus on practical problems in wireless security, trustworthy machine learning, intelligent communications, and resilient networked systems.
+My ongoing and recent research projects are listed below. They focus on practical problems in wireless security, trustworthy machine learning, intelligent communications, and resilient networked systems.
 </div>
 
 <div class="project-grid">
@@ -113,7 +113,7 @@ This page highlights selected ongoing and recent research projects. The projects
   </div>
 
   <div class="project-card">
-    <h3>NOMA-Based Cognitive Radio Networks and Physical-Layer Security</h3>
+    <h3>NOMA-Based Cognitive Radio Networks</h3>
     <p>
       Investigates NOMA-enabled cognitive radio systems that improve spectrum
       utilization while maintaining secure communication in the presence of
@@ -126,7 +126,7 @@ This page highlights selected ongoing and recent research projects. The projects
   <div class="project-card">
     <h3>Machine Learning-Based Wireless Channel Prediction and Adaptive Beamforming</h3>
     <p>
-      Uses LSTM, GRU, BiLSTM, and attention-based models to predict time-varying
+      Uses advanced ML to predict time-varying
       wireless channels. Predicted channel-state information is incorporated into
       ZF, MRT, RZF, MMSE, and related beamforming strategies to study performance
       under delayed or imperfect CSI.
