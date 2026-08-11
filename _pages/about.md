@@ -70,9 +70,10 @@ latest_posts:
     margin: 0;
   }
 
-  /* =========================
-     Homepage Buttons
-     ========================= */
+  .news-more {
+  margin-top: 0.4rem;
+  margin-bottom: 2rem;
+}
 
   .home-actions {
     display: flex;
@@ -442,6 +443,12 @@ My work examines how intelligent and distributed systems behave under adversaria
 
 {% endfor %}
 
+</div>
+
+<div class="news-more">
+  <a class="home-action" href="{{ '/news/' | relative_url }}">
+    View All News
+  </a>
 </div>
 
 </div>
