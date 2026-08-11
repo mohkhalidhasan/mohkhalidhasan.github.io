@@ -157,12 +157,12 @@ latest_posts:
     color: var(--global-text-color);
   }
 
-  /* Cover image */
+  /* ---------- News cover ---------- */
 
   .news-media {
     position: relative;
     width: 100%;
-    height: 118px;
+    height: 112px;
     overflow: hidden;
 
     background: color-mix(
@@ -175,13 +175,17 @@ latest_posts:
   }
 
   .news-image {
-    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
   }
 
-  /* Used only when no image can be found */
+  .news-image[hidden] {
+    display: none !important;
+  }
+
+  /* Displayed only when no usable image is available */
 
   .news-fallback {
     position: absolute;
@@ -194,13 +198,23 @@ latest_posts:
     padding: 1rem;
 
     color: var(--global-theme-color, #450084);
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
+    background: color-mix(
+      in srgb,
+      var(--global-theme-color, #450084) 7%,
+      var(--global-bg-color, #ffffff)
+    );
   }
 
-  /* News text */
+  .news-fallback[hidden] {
+    display: none !important;
+  }
+
+  /* ---------- News text ---------- */
 
   .news-content {
     display: flex;
@@ -282,7 +296,7 @@ latest_posts:
     }
 
     .news-media {
-      height: 150px;
+      height: 145px;
     }
   }
 </style>
@@ -363,6 +377,20 @@ My work examines how intelligent and distributed systems behave under adversaria
   {% assign link_first_four = news_link | slice: 0, 4 %}
   {% assign image_first_four = news_image | slice: 0, 4 %}
 
+  {% if news_image != "" %}
+
+    {% if image_first_four == "http" %}
+      {% assign manual_image_url = news_image %}
+    {% else %}
+      {% assign manual_image_url = news_image | relative_url %}
+    {% endif %}
+
+  {% else %}
+
+    {% assign manual_image_url = "" %}
+
+  {% endif %}
+
   <a
     class="news-card"
     href="{% if link_first_four == 'http' %}{{ news_link }}{% else %}{{ news_link | relative_url }}{% endif %}"
@@ -370,36 +398,23 @@ My work examines how intelligent and distributed systems behave under adversaria
       target="_blank"
       rel="noopener noreferrer"
     {% endif %}
+    data-manual-image="{{ manual_image_url | escape }}"
     data-preview-url="{{ preview_url | escape }}"
     aria-label="{{ item.title | escape }}"
   >
 
     <div class="news-media">
 
-      {% if news_image != "" %}
+      <img
+        class="news-image"
+        src=""
+        alt=""
+        hidden
+      >
 
-        <img
-          class="news-image"
-          src="{% if image_first_four == 'http' %}{{ news_image }}{% else %}{{ news_image | relative_url }}{% endif %}"
-          alt="{{ item.title | escape }}"
-          loading="lazy"
-        >
-
-      {% else %}
-
-        <img
-          class="news-image news-auto-image"
-          src=""
-          alt="{{ item.title | escape }}"
-          loading="lazy"
-          hidden
-        >
-
-        <div class="news-fallback">
-          {{ item.category }}
-        </div>
-
-      {% endif %}
+      <div class="news-fallback">
+        {{ item.category }}
+      </div>
 
     </div>
 
@@ -433,71 +448,106 @@ My work examines how intelligent and distributed systems behave under adversaria
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const cards = document.querySelectorAll(
-    ".news-card[data-preview-url]"
-  );
+
+  const cards = document.querySelectorAll(".news-card");
 
   cards.forEach(function (card) {
-    const previewUrl = card.dataset.previewUrl;
-    const image = card.querySelector(".news-auto-image");
+
+    const manualImageUrl = card.dataset.manualImage || "";
+    const previewUrl = card.dataset.previewUrl || "";
+
+    const visibleImage = card.querySelector(".news-image");
     const fallback = card.querySelector(".news-fallback");
 
+    const sources = [];
+
     /*
-     * If:
-     *  - an image was manually supplied, there will be no
-     *    .news-auto-image element;
-     *  - no preview URL was supplied, keep the category fallback.
+     * Priority 1:
+     * Use an image uploaded by you.
      */
-    if (!previewUrl || !image) {
+    if (manualImageUrl) {
+      sources.push(manualImageUrl);
+    }
+
+    /*
+     * Priority 2:
+     * If no uploaded image works, try to retrieve the
+     * representative image from the external page.
+     */
+    if (previewUrl) {
+
+      const encodedUrl = encodeURIComponent(previewUrl);
+
+      const representativeImage =
+        "https://api.microlink.io/?url=" +
+        encodedUrl +
+        "&embed=image.url";
+
+      const pageScreenshot =
+        "https://api.microlink.io/?url=" +
+        encodedUrl +
+        "&screenshot=true" +
+        "&meta=false" +
+        "&embed=screenshot.url";
+
+      sources.push(representativeImage);
+      sources.push(pageScreenshot);
+    }
+
+    /*
+     * If there is no uploaded image and no preview URL,
+     * simply keep the category fallback visible.
+     */
+    if (sources.length === 0) {
       return;
     }
 
-    const encodedUrl = encodeURIComponent(previewUrl);
+    function tryImage(index) {
 
-    /*
-     * First try the representative/Open Graph image
-     * from the external page.
-     */
-    const imageEndpoint =
-      "https://api.microlink.io/?url=" +
-      encodedUrl +
-      "&embed=image.url";
+      /*
+       * Every candidate failed.
+       * Keep the clean category fallback.
+       */
+      if (index >= sources.length) {
 
-    /*
-     * If the page does not provide a representative image,
-     * try a screenshot of the external page.
-     */
-    const screenshotEndpoint =
-      "https://api.microlink.io/?url=" +
-      encodedUrl +
-      "&screenshot=true" +
-      "&meta=false" +
-      "&embed=screenshot.url";
-
-    let triedScreenshot = false;
-
-    image.addEventListener("load", function () {
-      image.hidden = false;
-
-      if (fallback) {
-        fallback.hidden = true;
-      }
-    });
-
-    image.addEventListener("error", function () {
-      if (!triedScreenshot) {
-        triedScreenshot = true;
-        image.src = screenshotEndpoint;
-      } else {
-        image.hidden = true;
+        visibleImage.hidden = true;
 
         if (fallback) {
           fallback.hidden = false;
         }
-      }
-    });
 
-    image.src = imageEndpoint;
+        return;
+      }
+
+      /*
+       * Test the image before placing it in the visible card.
+       * This prevents broken-image icons from appearing.
+       */
+      const tester = new Image();
+
+      tester.onload = function () {
+
+        visibleImage.src = sources[index];
+        visibleImage.hidden = false;
+
+        if (fallback) {
+          fallback.hidden = true;
+        }
+
+      };
+
+      tester.onerror = function () {
+
+        tryImage(index + 1);
+
+      };
+
+      tester.src = sources[index];
+    }
+
+    tryImage(0);
+
   });
+
 });
 </script>
