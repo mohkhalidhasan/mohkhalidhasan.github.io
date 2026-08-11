@@ -12,6 +12,14 @@
 #
 # link:
 #   Where the visitor goes after clicking the card.
+- title: "4-VA Collaborative Research Grant"
+  date: "April 2026"
+  category: "Grant"
+  description: "Received the 4-VA Collaborative Research Grant for our work on machine learning–driven predictive secure beamforming for NextG UAV networks."
+  link: "https://4-va.org/"
+  external: true
+  image: ""
+  preview_url: "https://4-va.org/"
 
 - title: "New Publication in IEEE Transactions on Vehicular Technology"
   date: "Feb 2026"
@@ -26,7 +34,7 @@
   date: "2025"
   category: "Grant"
   description: "Received a Faculty Development Grant from James Madison University to support research development and student-engaged scholarship."
-  link: "/projects/"
+  link: ""
   external: false
   image: "assets/img/FDG.png"
   preview_url: ""
