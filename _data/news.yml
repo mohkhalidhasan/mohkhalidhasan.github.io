@@ -17,28 +17,30 @@
   date: "Feb 2026"
   category: "Publication"
   description: "Our work on channel-adaptive privacy enhancement for NOMA-based antagonistic overlay cognitive networks was published in IEEE Transactions on Vehicular Technology."
-  link: "/publications/"
-  external: false
+  link: "https://doi.org/10.1109/TVT.2025.3606837"
+  external: true
   image: ""
   preview_url: "https://doi.org/10.1109/TVT.2025.3606837"
+
+- title: "Faculty Development Grant"
+  date: "Dec. 2026"
+  category: "Grant"
+  description: "Received a Faculty Development Grant from James Madison University to support research development and student-engaged scholarship."
+  link: ""
+  external: false
+  image: "assets/img/FDG.png"
+  preview_url: ""
 
 - title: "New Publication in Journal of Lightwave Technology"
   date: "May 2025"
   category: "Publication"
   description: "Our work on U-Net-based optical camera communication in intensity-constrained scenarios was published in the Journal of Lightwave Technology."
-  link: "/publications/"
-  external: false
+  link: "https://doi.org/10.1109/JLT.2025.3543281"
+  external: true
   image: ""
   preview_url: "https://doi.org/10.1109/JLT.2025.3543281"
 
-- title: "Faculty Development Grant"
-  date: "2025"
-  category: "Grant"
-  description: "Received a Faculty Development Grant from James Madison University to support research development and student-engaged scholarship."
-  link: "/projects/"
-  external: false
-  image: ""
-  preview_url: ""
+
 
 # Example with a manually uploaded cover:
 #
