@@ -2,20 +2,38 @@
 # Keep the newest item first.
 #
 # image:
-#   Optional.
-#   If you upload your own cover image, use:
-#   assets/img/news/example.jpg
+#   Optional manually uploaded cover image.
+#   Example: assets/img/news/example.jpg
 #
 # preview_url:
 #   If image is blank, the website will try to retrieve
 #   a representative image from this page automatically.
 #
 # link:
-#   Where the visitor goes after clicking the card.
+#   Destination when the visitor clicks the card.
+
+- title: "Outstanding Ph.D. Dissertation Award"
+  date: "May 2026"
+  category: "Award"
+  description: "Received the Outstanding Ph.D. Dissertation Award in Electrical Engineering from Stevens Institute of Technology."
+  link: "https://stevens-institute-of-technology.dcatalog.com/v/Graduate-Awards-Ceremony/?page=8"
+  external: true
+  image: ""
+  preview_url: "https://stevens-institute-of-technology.dcatalog.com/v/Graduate-Awards-Ceremony/?page=8"
+
+- title: "Invited to Serve on the MILCOM 2026 TPC"
+  date: "May 2026"
+  category: "Service"
+  description: "Invited to serve on the Technical Program Committee for MILCOM 2026, Unclassified Track 3: Cybersecurity and Trusted Edge Computing."
+  link: "https://milcom2026.ieee-milcom.org/"
+  external: true
+  image: ""
+  preview_url: "https://milcom2026.ieee-milcom.org/"
+
 - title: "4-VA Collaborative Research Grant"
-  date: "April 2026"
+  date: "Apr 2026"
   category: "Grant"
-  description: "Received the 4-VA Collaborative Research Grant for our work on machine learning–driven predictive secure beamforming for NextG UAV networks."
+  description: "Received a 4-VA Collaborative Research Grant for our work on machine learning-driven predictive secure beamforming for NextG UAV networks."
   link: "https://4-va.org/"
   external: true
   image: ""
@@ -31,13 +49,31 @@
   preview_url: "https://doi.org/10.1109/TVT.2025.3606837"
 
 - title: "Faculty Development Grant"
-  date: "2025"
+  date: "Dec 2025"
   category: "Grant"
   description: "Received a Faculty Development Grant from James Madison University to support research development and student-engaged scholarship."
-  link: ""
+  link: "/projects/"
   external: false
   image: "assets/img/FDG.png"
   preview_url: ""
+
+- title: "Invited to Serve on INFOCOM 2026 Workshop TPCs"
+  date: "Nov 2025"
+  category: "Service"
+  description: "Invited to serve on the Technical Program Committees for the INFOCOM 2026 ISAC-FutureG and Embodied Intelligence Networks workshops."
+  link: "https://infocom2026.ieee-infocom.org/"
+  external: true
+  image: ""
+  preview_url: "https://infocom2026.ieee-infocom.org/"
+
+- title: "New Publication at IEEE ICC 2025"
+  date: "Jun 2025"
+  category: "Publication"
+  description: "Our work on uplink secrecy in RIS-aided MIMO-NOMA networks with user-centric artificial noise was published at IEEE ICC 2025."
+  link: "https://doi.org/10.1109/ICC52391.2025.11162097"
+  external: true
+  image: ""
+  preview_url: "https://doi.org/10.1109/ICC52391.2025.11162097"
 
 - title: "New Publication in Journal of Lightwave Technology"
   date: "May 2025"
