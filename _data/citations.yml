@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-10'
+  last_updated: '2026-08-14'
 papers:
   4Uv2SsRQT2gC:0EnyYjriUFMC:
     citations: 20
@@ -26,7 +26,7 @@ papers:
     title: Power Flow Management With Demand Response Profiles Based on User-Defined Area, Load, and Phase Classification
     year: '2020'
   4Uv2SsRQT2gC:4OULZ7Gr8RgC:
-    citations: 83
+    citations: 84
     title: 'Optical camera communication in vehicular applications: A review'
     year: '2021'
   4Uv2SsRQT2gC:4TOpqqG69KYC:
@@ -70,7 +70,7 @@ papers:
     title: Experimental demonstration of continuous sensor data monitoring using neural network-based optical camera communications
     year: '2020'
   4Uv2SsRQT2gC:IjCSPb-OGe4C:
-    citations: 70
+    citations: 71
     title: Integrated RF/optical wireless networks for improving QoS in indoor and transportation applications
     year: '2019'
   4Uv2SsRQT2gC:KlAtU1dfN6UC:
@@ -230,7 +230,7 @@ papers:
     title: Design and Implementation of an OCC-based real-time heart rate and pulse-oxygen saturation monitoring system
     year: '2020'
   4Uv2SsRQT2gC:mVmsd5A6BfQC:
-    citations: 430
+    citations: 431
     title: 'Optical wireless hybrid networks: Trends, opportunities, challenges, and research directions'
     year: '2020'
   4Uv2SsRQT2gC:pqnbT2bcN3wC:
