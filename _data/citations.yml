@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-08-17'
 papers:
   4Uv2SsRQT2gC:0EnyYjriUFMC:
     citations: 20
@@ -74,7 +74,7 @@ papers:
     title: Integrated RF/optical wireless networks for improving QoS in indoor and transportation applications
     year: '2019'
   4Uv2SsRQT2gC:KlAtU1dfN6UC:
-    citations: 380
+    citations: 381
     title: 'The role of optical wireless communication technologies in 5G/6G and IoT solutions: Prospects, directions, and challenges'
     year: '2019'
   4Uv2SsRQT2gC:L8Ckcad2t8MC:
@@ -86,7 +86,7 @@ papers:
     title: Optical wireless hybrid networks for 5G and beyond communications
     year: '2020'
   4Uv2SsRQT2gC:M3ejUd6NZC8C:
-    citations: 139
+    citations: 140
     title: FPGA implementation of high-speed area-efficient processor for elliptic curve point multiplication over prime field
     year: '2019'
   4Uv2SsRQT2gC:MXK_kJrjxJIC:
@@ -94,7 +94,7 @@ papers:
     title: 'Smartphone camera-based optical wireless communication system: requirements and implementation challenges'
     year: '2019'
   4Uv2SsRQT2gC:NhqRSupF_l8C:
-    citations: 0
+    citations: 1
     title: 'Toward Secure and Efficient Cognitive Radio Networks: Adaptive PHY Security and Learning-Driven Optimization'
     year: '2025'
   4Uv2SsRQT2gC:P5F9QuxV20EC:
@@ -102,7 +102,7 @@ papers:
     title: 'High-Frequency Rolling Shutter Optical Camera Communication: Quantitative Geometric Analysis and Mitigation of Stripe Distortion'
     year: '2026'
   4Uv2SsRQT2gC:QIV2ME_5wuYC:
-    citations: 69
+    citations: 71
     title: An overview of AI-enabled remote Smart-home monitoring system using LoRa
     year: '2020'
   4Uv2SsRQT2gC:RHpTSmoSYBkC:
@@ -206,7 +206,7 @@ papers:
     title: Over-the-Air Federated Learning with Enhanced Privacy
     year: '2023'
   4Uv2SsRQT2gC:g5m5HwL7SMYC:
-    citations: 58
+    citations: 59
     title: The role of deep learning in NOMA for 5G and beyond communications
     year: '2020'
   4Uv2SsRQT2gC:hC7cP41nSMkC:
